@@ -5,7 +5,7 @@ public class Armor extends Item implements Equippable {
         super(name, description, weight, goldValue);
         this.defense = defense;
     }
-
+    //metod
     public int getDefense() {
         return defense;
     }

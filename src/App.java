@@ -1,6 +1,6 @@
 public class App {
     public static void main(String[] args) throws Exception {
-        // Create inventory
+        // skapar inventory
         Inventory inventory = new Inventory();
 
         // Skapa dom olika saker för inventory
@@ -35,7 +35,7 @@ public class App {
                 1000000, 
                 1000, 
                 "Acid");
-        // Add items to inventory
+        // lägger till items till inventory
         inventory.addItem(chainsawSword);
         inventory.addItem(gnomeHatArmor);
         inventory.addItem(healthGooPotion);
@@ -60,6 +60,5 @@ public class App {
         yummypotionmmmm.use();
         chainsawSword.refuel(20);
         inventory.displayItems();
-        chainsawSword.getFuelLevel();
     }
 }

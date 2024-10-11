@@ -8,7 +8,7 @@ public class ChainsawSword extends Weapon {
         this.fuelLevel = fuelLevel;
     }
     
-    //Metoder
+    // Hämtare eller "Getters"
     public int getFuelLevel() {
         return fuelLevel;
     }
