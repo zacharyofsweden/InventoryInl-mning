@@ -1,3 +1,3 @@
 public interface Usable {
-    void use();
+    void use(Inventory inventory);
 }
